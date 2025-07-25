@@ -3,7 +3,7 @@ import { Icon } from '@iconify/react';
 
 export default function HeaderBar() {
   return (
-    <header className="w-full bg-[#4a1616] text-white flex items-center justify-between px-4 py-2">
+    <header className="w-full bg-[#4a1616] text-white flex items-center justify-between px-4 py-2 z-2 relative">
       {/* LEFT: Home + back + user info */}
       <div className="flex items-center gap-3">
         <button className="text-white text-xl">
