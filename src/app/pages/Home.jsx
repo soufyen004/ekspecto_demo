@@ -3,10 +3,12 @@ import LeftPanel from '../components/LeftPanel';
 import CenterPanel from '../components/CenterPanel';
 import RightPanel from '../components/RightPanel';
 import BottomNav from '../components/BottomNav';
+import MobileDetect from '../components/MobileDetect';
 
 export default function Home() {
   return (
     <div className="min-h-screen bg-[#f3f3f3] text-gray-800">
+      <MobileDetect />
       <HeaderBar />
       <main className="flex px-4 mt-4">
         <LeftPanel />
